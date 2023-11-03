@@ -17,5 +17,5 @@ function numberToText(num) {
     return `${tens[tensPart]} ${ones[onesPart]}`.trim();
 }
 
-const userInput = Number(prompt("Enter a two-digit number: "));
-console.log(numberToText(userInput));
+const num = Number(prompt("Enter a two-digit number: "));
+console.log(numberToText(num));
